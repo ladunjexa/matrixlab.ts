@@ -116,7 +116,7 @@ describe("Matrix", () => {
    */
   describe("shape", () => {
     it("should return the shape of the matrix", () => {
-      expect(matrix.shape).toEqual([3, 3]);
+      expect(matrix.shape()).toEqual([3, 3]);
     });
   });
 
@@ -125,7 +125,7 @@ describe("Matrix", () => {
    */
   describe("size", () => {
     it("should return the total number of elements in the matrix", () => {
-      expect(matrix.size).toBe(9);
+      expect(matrix.size()).toBe(9);
     });
   });
 
@@ -137,7 +137,7 @@ describe("Matrix", () => {
   describe("setShape", () => {
     it("should return the shape of the matrix", () => {
       matrix.setShape([5, 5]);
-      expect(matrix.shape).toEqual([5, 5]);
+      expect(matrix.shape()).toEqual([5, 5]);
     });
   });
 

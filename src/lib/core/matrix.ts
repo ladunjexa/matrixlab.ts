@@ -115,12 +115,20 @@ export default class Matrix {
     return this._data;
   }
 
+  // ─── PUBLIC METHODS ────────────────────────────────────────────────────────────────
+
+  // ────── Basic Matrix Operations
+
   /**
    * Gets the shape of the matrix.
    *
    * @returns {number[]} The shape of the matrix.
+   * 
+   * @example
+   * const matrix = new Matrix(2, 3);
+   * matrix.shape(); // [2, 3]
    */
-  get shape() {
+  shape() {
     return [this._rows, this._columns];
   }
 
@@ -128,14 +136,14 @@ export default class Matrix {
    * Gets the size of the matrix.
    *
    * @returns {number} The size of the matrix.
+   * 
+   * @example
+   * const matrix = new Matrix(2, 3);
+   * matrix.size(); // 6
    */
-  get size() {
+  size() {
     return this._rows * this._columns;
   }
-
-  // ─── PUBLIC METHODS ────────────────────────────────────────────────────────────────
-
-  // ────── Basic Matrix Operations
 
   /**
    * Retrieves the value at the specified row and column indices.

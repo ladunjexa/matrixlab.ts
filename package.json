@@ -1,7 +1,7 @@
 {
   "name": "@ladunjexa/matrixlab.ts",
   "description": "A TypeScript matrix math library",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Liron Abutbul (ladunjexa) <ladunjexa@gmail.com",
   "license": "MIT",
   "type": "module",
@@ -27,17 +27,15 @@
     "build": "tsc && vite build",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "doc": "jsdoc -c jsdoc.json -t node_modules/docdash"
+    "doc": "npx typedoc src/lib/index.ts"
   },
   "devDependencies": {
     "@types/node": "^20.3.1",
+    "typedoc": "^0.24.8",
     "typescript": "^5.0.2",
     "vite": "^4.3.9",
     "vite-plugin-dts": "^2.3.0",
     "vitest": "^0.32.2"
-  },
-  "dependencies": {
-    "docdash": "^2.0.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
