@@ -73,13 +73,13 @@ m1.at(0, 0); // ==> 5
 | rows    | Retrieves the number of rows in the matrix    |
 | columns | Retrieves the number of columns in the matrix |
 | data    | Gets the data of the matrix                   |
-| shape   | Gets the shape of the matrix                  |
-| size    | Gets the size of the matrix                   |
 
 ### Public Methods
 
 | method                    | description                                                            |
 | ------------------------- | ---------------------------------------------------------------------- |
+| shape                     | Gets the shape of the matrix                                           |
+| size                      | Gets the size of the matrix                                            |
 | set(row, column, value)   | Sets the value at the specified row and column indices                 |
 | at(row, column)           | Retrieves the value at the specified row and column indices            |
 | reset()                   | Sets all matrix values to 0                                            |
