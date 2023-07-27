@@ -57,14 +57,14 @@ m1.at(0, 0); // ==> 5
 
 ### Constructor
 
-| constructor                     | description                                                                  |
-| ------------------------------- | ---------------------------------------------------------------------------- |
-| new Matrix()                    | Creates a 1x1 matrix with zero value                                         |
-| new Matrix(n)                   | Creates an _nxn_ matrix with zeroes                                          |
-| new Matrix(data)                | Creates a matrix from the specified 2D array                                 |
-| new Matrix(rows, columns)       | Creates an _mxn_ matrix with zeroes                                          |
-| new Matrix(rows, columns, data) | Creates a matrix from the specified 2D array (with the specified dimensions) |
-| new Matrix(n, data)             | Creates an _nxn_ matrix from the specified 2D array                          |
+| constructor                 | description                                                                  |
+| --------------------------- | ---------------------------------------------------------------------------- |
+| Matrix()                    | Creates a 1x1 matrix with zero value                                         |
+| Matrix(n)                   | Creates an _nxn_ matrix with zeroes                                          |
+| Matrix(data)                | Creates a matrix from the specified 2D array                                 |
+| Matrix(rows, columns)       | Creates an _mxn_ matrix with zeroes                                          |
+| Matrix(rows, columns, data) | Creates a matrix from the specified 2D array (with the specified dimensions) |
+| Matrix(n, data)             | Creates an _nxn_ matrix from the specified 2D array                          |
 
 ### Accessors and Mutators
 
@@ -122,7 +122,7 @@ For more information, please refer to the [_Matrix_ Class documentation](https:/
 
 Contributions are always welcome!
 
-See [`contributing.md`](https://contributing.md/) for ways to get started.
+See [`contributing.md`](https://github.com/ladunjexa/matrixlab.ts) for ways to get started.
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 

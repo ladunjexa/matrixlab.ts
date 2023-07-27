@@ -2,14 +2,14 @@
   "name": "@ladunjexa/matrixlab.ts",
   "description": "A TypeScript matrix math library",
   "version": "1.0.3",
-  "author": "Liron Abutbul (ladunjexa) <ladunjexa@gmail.com",
+  "author": "Liron Abutbul (ladunjexa) <ladunjexa@gmail.com>",
   "license": "MIT",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
   "types": "./@types/index.d.ts",
   "homepage": "https://ladunjexa.github.io/matrixlab.ts/",
-  "repository": "https://github.com/ladunjexa.matrixlab.ts",
+  "repository": "https://github.com/ladunjexa/matrixlab.ts",
   "bugs": {
     "url": "https://github.com/ladunjexa/matrixlab.ts/issues"
   },

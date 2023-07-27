@@ -3,6 +3,7 @@
  * @description A collection of helper functions.
  */
 /**
+ * @private
  * @function rotate90DegreesClockwise
  * @memberof Helpers
  *

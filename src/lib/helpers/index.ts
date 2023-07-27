@@ -4,6 +4,7 @@
  */
 
 /**
+ * @private
  * @function rotate90DegreesClockwise
  * @memberof Helpers
  *

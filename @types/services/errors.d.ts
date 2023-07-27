@@ -3,6 +3,7 @@
  * @description A collection of services.
  */
 /**
+ * @private
  * @function handleError
  * @memberof Services
  *
@@ -18,6 +19,7 @@
  */
 export declare function handleError(msg: string, expression?: any): void;
 /**
+ * @private
  * @constant {type} ERROR_MESSAGES
  * @memberof Services
  *

@@ -4,6 +4,7 @@
  */
 
 /**
+ * @private
  * @function handleError
  * @memberof Services
  *
@@ -24,6 +25,7 @@ export function handleError(msg: string, expression: any = true): void {
 }
 
 /**
+ * @private
  * @constant {type} ERROR_MESSAGES
  * @memberof Services
  *
