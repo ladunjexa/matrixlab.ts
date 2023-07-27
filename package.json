@@ -1,7 +1,7 @@
 {
   "name": "@ladunjexa/matrixlab.ts",
   "description": "A TypeScript matrix math library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": "Liron Abutbul (ladunjexa) <ladunjexa@gmail.com>",
   "license": "MIT",
   "type": "module",
